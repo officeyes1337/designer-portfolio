@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" defer></script>
+    <script src="js/language.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__link lng-home-nav" href="#">Home</a>
+                <a class="header__link lng-about-nav" href="#">About me</a>
+                <a class="header__link lng-skills-nav" href="#">Skills</a>
+                <a class="header__link lng-portfolio-nav" href="#">Portfolio</a>
+                <a class="header__link lng-contacts-nav" href="#">Contacts</a>
+            </nav>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <hr class='header__hr'>
+
+            <div class="header__info">
+                <div class="info">
+                    <div class="header__name">
+                        <h1 class="lng-name">Denis <br> Novak</h1>
+                    </div>
+                    <div class="header__job">
+                        <p class="lng-job">UX | UI designer <br>
+                            24 years old, Minsk</p>
+                    </div>
+                    <div class="lang">
+                        <a class="lang__link eng lang__link_active" href="#">ENG</a>
+                        <span>|</span>
+                        <a class="lang__link ru" href="#">RU</a>
+                    </div>
+                </div>
+            </div>
+            <picture>
+                <source media="(max-width: 580px)" srcset="img/allman.webp">
+                <source media="(max-width: 580px)" srcset="img/allman.jpg">
+                <source srcset="img/man.webp">
+                <img class="header__img" src="img/man.jpg" alt="Man">
+            </picture>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about__text">
+                <h2 class="title lng-about">About me</h2>
+                <p class="lng-inf"> Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and
+                    everything connected
+                    with it.
+                    <br><br><br> I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.
+                    <br><br><br>
+                    Ready to implement excellent projects with <br> wonderful people.</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="title title_skills lng-skills">Skills</h2>
+            <h4 class="subtitle subtitle_skills lng-program">I work in such programs as</h4>
+
+            <div class="skills__programs">
+                <div class="skills__program">
+                    <img class="skills__img" src="img/Photoshop.svg" alt="Photoshop">
+                    <p>Adobe <br>
+                        Photoshop</p>
+                    <div class="rating">
+                        <img src="img/active star.svg" class="first" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="skills__program">
+                    <img class="skills__img" src="img/Illustrator.svg" alt="Illustrator">
+                    <p>Adobe <br>
+                        Illustrator</p>
+                    <div class="rating">
+                        <img src="img/active star.svg" class="first" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="skills__program">
+                    <img class="skills__img" src="img/After Effects.svg" alt="After Effects">
+                    <p>Adobe <br>
+                        After Effects</p>
+                    <div class="rating">
+                        <img src="img/active star.svg" class="first" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="skills__program">
+                    <img class="skills__img" src="img/Figma.svg" alt="Figma">
+                    <p>Figma</p>
+                    <div class="rating">
+                        <img src="img/active star.svg" class="first" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/active star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title title_portfolio lng-portfolio">Portfolio</h2>
+            <div class="portfolio__works">
+
+                <div class="portfolio__work">
+                    <picture>
+                        <source srcset="img/work1.webp">
+                        <img src="img/work1.jpg" alt="First work">
+                    </picture>
+                    <a href="#">Online fashion store - Homepage</a>
+                </div>
+
+                <div class="portfolio__work">
+                    <picture>
+                        <source srcset="img/work2.webp">
+                        <img src="img/work2.jpg" alt="Second work">
+                    </picture>
+                    <a href="#">Reebok Store - Concept</a>
+                </div>
+
+                <div class="portfolio__work">
+                    <picture>
+                        <source srcset="img/work3.webp">
+                        <img src="img/work3.jpg" alt="Third work">
+                    </picture>
+                    <a href="#">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title title_contacts lng-contacts">Contacts</h2>
+            <h4 class="subtitle subtitle_contacts lng-my__contacts">
+                Want to know more or just chat? <br>
+                You are welcome!
+            </h4>
+            <a href="#" class="btn lng-btn">Send message</a>
+
+            <div class="contacts__social">
+                <a href="#"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="img/behacne.svg" alt="Behance"></a>
+                <a class="last" href="#"><img src="img/dribble.svg" alt="Dribble"></a>
+            </div>
+            <p class="lng-like">Like me on <br>
+                LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </section>
+</body>
+
+</html>
